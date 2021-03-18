@@ -1,0 +1,170 @@
+/*
+*
+Impostazioni grafiche del menù
+*
+*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    /*padding è per la grandezza generale del  rettangolino*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*barra di ricerca*/
+.search-input[type="search"]{
+    /*modifica le dimensioni della barra di ricerca*/
+    width:90%;
+    padding:1%;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 1% auto;
+    border-color: silver
+}
+
+.color-turquoise-box{
+    background-color:#1abc9c
+}
+
+/*________________________________________METODI PER TUTTE LE SEZIONI:___________________________________________ */
+
+/*link/collegamenti:
+a{
+  /*  color: #34495e;
+  color:#0d5f4f;
+}
+
+a:hover{
+    /*cambio del colore dei link quando ci si passa sopra il cursore
+    color: #34495e;
+}
+*/
+/*
+
+/*_______________________________________METODI PER LA SEZIONE ACCESSO:___________________________________________
+/*impostazioni grafiche dei link nella sezione accesso:
+.login ul li{
+    display: inline;
+    padding:1%; /*distanziamento tra link scritte vicino al logo
+    font-weight:bold; /*grassetto
+    font-size:medium
+}
+    
+
+/*colore box
+.color-login-box{
+    background-color:white
+}
+
+/*link
+b{ 
+    color: #34495e;
+    text-decoration: none;
+    font-size:medium 
+}
+
+b:hover{
+    /*cambio del colore dei link quando ci si passa sopra il cursore
+   color: #1abc9c
+}
+
+.btn{
+    /*bottone
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    /*smussatura angoli:
+    border-radius: 5px
+}
+
+.btn-primary-color{
+    background-color: #34495e;
+    color: white;
+    cursor: pointer
+}
+
+.btn-primary-color:hover{
+    background-color:#0d5f4f;
+    color: white /*colore scritta rimane bianca se passiamo il ccursore su un pulsante(altrimenti non si vedrebbe)
+}
+
+
+/*background-color:#1abc9c*/
+
+/*_____________________________________METODI PER LA SEZIONE BIBLIOTECA:__________________________________________
+/*colore box
+.background-home{
+    background-image: url(../img/home.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0
+}
+
+/*_______________________________________METODI PER LA SEZIONE LIBRI:______________________________________________ 
+
+        .color-libri-box{
+        background-color:white
+    }
+    
+    e{
+
+     color: #34495e;
+     font-weight:bold;
+     font-size: larger
+    }
+
+    f{
+        color:   #34495e
+    }
+
+    h{ 
+        color: #1abc9c;
+        text-decoration: none;
+        font-size:medium
+    }
+    
+    h:hover{
+        /*cambio del colore dei link quando ci si passa sopra il cursore
+       color: #34495e
+    }
+
+/*____________________________________METODI PER LA SEZIONE COPYRIGHT:______________________________________________    
+.container-cpr{
+    width: auto;
+    margin: 0% auto;
+    padding: 1%
+}
+
+.color-cpr-box{
+    background-color:#34495e
+}
+
+.text-small{
+    font-size:small
+}
+
+/*_________________________________________BIBLIOTECA.HTML:________________________________________________________  
+.background-biblioteca{
+    background-image: url(../img/biblioteca.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4% 0
+    }
+
+.box{
+        width:30%;
+        float: left ;/*tutto allineato!!!
+        margin: 1%
+    }
+
+/*
+    .float-container{
+        position: relative;
+
+        
+    }
+    
+
+*/
